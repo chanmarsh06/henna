@@ -15,7 +15,7 @@ function Comments() {
         <div className="text-center my-1 py-3">
           <h2 className=" text-primary">
             {" "}
-            Comments <i class="bi bi-chat-left-heart"></i>
+            Comments <i className="bi bi-chat-left-heart"></i>
           </h2>
         </div>
         <Container>
@@ -24,7 +24,7 @@ function Comments() {
               <Form>
                 <InputGroup className="mb-3">
                   <InputGroup.Text id="basic-addon1">
-                    <i class="bi bi-envelope-open"></i>
+                    <i className="bi bi-envelope-open"></i>
                   </InputGroup.Text>
                   <FloatingLabel controlId="floatingInput" label="Email ">
                     <Form.Control type="email" placeholder="name@example.com" />
@@ -32,7 +32,7 @@ function Comments() {
                 </InputGroup>
                 <InputGroup className="mb-3">
                   <InputGroup.Text id="basic-addon1">
-                    <i class="bi bi-file-earmark-person-fill"></i>
+                    <i className="bi bi-file-earmark-person-fill"></i>
                   </InputGroup.Text>
                   <FloatingLabel controlId="floatingInput" label="Name">
                     <Form.Control type="email" placeholder="name@example.com" />

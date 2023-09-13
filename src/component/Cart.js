@@ -15,10 +15,10 @@ function Cart() {
         }}
         className="me-2  position-relative"
       >
-        <i class="bi bi-bag-check"></i>{" "}
-        <span class="position-absolute top-0 start-100 translate-middle sm-badge badge rounded-pill bg-danger">
+        <i className="bi bi-bag-check"></i>{" "}
+        <span className="position-absolute top-0 start-100 translate-middle sm-badge badge rounded-pill bg-danger">
           15+
-          <span class="visually-hidden">unread messages</span>
+          <span className="visually-hidden">unread messages</span>
         </span>
       </Button>
       <Offcanvas

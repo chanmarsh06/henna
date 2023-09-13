@@ -12,22 +12,20 @@ function PickoftheWeek() {
     <section id="musttry" className="my-2 ">
       <div className="text-center py-3 my-4">
         <h2 className="display-5 text-primary">
-          <i class="bi bi-search-heart"></i> Pick Of The Week!
+          <i className="bi bi-search-heart"></i> Pick Of The Week!
         </h2>
       </div>
       <Container>
         <Row className="align-items-center">
-          <Col md={7}>
+          <Col lg={7}>
             <img
-              rounded
-              roundedCircle
               src={require("../img/bg-henna-s2.webp")}
-              //   className="w-75"
+              className=" img-fluid"
               fluid="true"
               alt=""
             />
           </Col>
-          <Col md={5}>
+          <Col lg={5}>
             <div className="p-3">
               <h2 className="h1">Weddings are incomplete without mehndi</h2>
               <p className="lead text-muted">
@@ -40,7 +38,7 @@ function PickoftheWeek() {
                   setShow(true);
                 }}
               >
-                <i class="bi bi-bag-check-fill"></i> Order Now
+                <i className="bi bi-bag-check-fill"></i> Order Now
               </Button>
             </div>
           </Col>
