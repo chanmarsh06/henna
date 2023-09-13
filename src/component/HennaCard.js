@@ -41,28 +41,7 @@ function HennaCard() {
     <>
       <Container>
         <Row>
-          <Col md={4} >
-            <Card className="m-3">
-              <Card.Img
-                // variant="top"
-                className="text-center"
-                src={require("../img/bg-henna-4.webp")}
-              />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text>
-                <Button
-                  variant="success text-white"
-                  onClick={() => setModalShow(true)}
-                >
-                  Add To Basket
-                </Button>
-              </Card.Body>
-            </Card>
-
+          <Col md={4}>
             <Card className="m-3">
               <Card.Img
                 // variant="top"
@@ -83,7 +62,8 @@ function HennaCard() {
                 </Button>
               </Card.Body>
             </Card>
-
+          </Col>
+          <Col md={4}>
             <Card className="m-3">
               <Card.Img
                 // variant="top"
@@ -105,8 +85,97 @@ function HennaCard() {
               </Card.Body>
             </Card>
           </Col>
+          <Col md={4}>
+            <Card className="m-3">
+              <Card.Img
+                // variant="top"
+                className="text-center"
+                src={require("../img/card-3.webp")}
+              />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+                <Button
+                  variant="success text-white"
+                  onClick={() => setModalShow(true)}
+                >
+                  Add To Basket
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
         </Row>
-      
+        <Row>
+          <Col md={4}>
+            <Card className="m-3">
+              <Card.Img
+                // variant="top"
+                className="text-center"
+                src={require("../img/card-4.webp")}
+              />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+                <Button
+                  variant="success text-white"
+                  onClick={() => setModalShow(true)}
+                >
+                  Add To Basket
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={4}>
+            <Card className="m-3">
+              <Card.Img
+                // variant="top"
+                className="text-center"
+                src={require("../img/card-5.webp")}
+              />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+                <Button
+                  variant="success text-white"
+                  onClick={() => setModalShow(true)}
+                >
+                  Add To Basket
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col md={4}>
+            <Card className="m-3">
+              <Card.Img
+                // variant="top"
+                className="text-center"
+                src={require("../img/bg-henna-4.webp")}
+              />
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+                <Button
+                  variant="success text-white"
+                  onClick={() => setModalShow(true)}
+                >
+                  Add To Basket
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
       </Container>
 
       <MyVerticallyCenteredModal

@@ -14,7 +14,7 @@ const Menu = () => {
             In love with the timeless elegance of mehndi designs
           </h3>
           <Row>
-            <Col>
+            <Col >
               <HennaCard />
             </Col>
 
